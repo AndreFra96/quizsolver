@@ -1,28 +1,3 @@
-# Quiz Solver
-
-This is a simple quiz solver based on Google ML Kit and GPT-3.
-
-Ready for executions on iOS, needed configuration for Android.
-
-## How to use
-
-1. Take a picture of the quiz
-2. Wait for the answer
-
-## How it works
-
-1. The image is processed using Google ML Kit
-2. The text is extracted from the image
-3. The text is sent to GPT-3
-4. GPT-3 returns the question and the correct answer
-
-## How to run
-
-1. Clone the repository
-2. Run `flutter pub get`
-3. Update the 'openaiApiKey' in `lib/config.dart` with your OpenAI API Key
-4. Run `flutter run`
-
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
 <a name="readme-top"></a>
@@ -55,19 +30,19 @@ Ready for executions on iOS, needed configuration for Android.
 <br />
 <div align="center">
   <a href="https://github.com/AndreFra96/quizsolver">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Quiz Solver</h3>
 
   <p align="center">
-    project_description
+    A quiz solver based on Google ML Kit and GPT-3.
     <br />
     <a href="https://github.com/AndreFra96/quizsolver"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/AndreFra96/quizsolver">View Demo</a>
-    ·
+    <!-- <a href="https://github.com/AndreFra96/quizsolver">View Demo</a>
+    · -->
     <a href="https://github.com/AndreFra96/quizsolver/issues">Report Bug</a>
     ·
     <a href="https://github.com/AndreFra96/quizsolver/issues">Request Feature</a>
@@ -104,22 +79,30 @@ Ready for executions on iOS, needed configuration for Android.
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Quiz solver comes from the curiosity to test the capabilities of GPT-3 model facing a real world problem.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `AndreFra96`, `quizsolver`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+It uses the device camera to take a picture of a question with related possible answers. Then, it reads all the text in the image with Google ML Kit Text Recognition and sends it to Openai GPT-3 chat model which in turn extracts the question with the possible answers and finally tries to guess which one of them is the right one.
+
+**This is neither bad or good by itself, the use you make of it makes it so**
+
+Ready for execution on iOS (simulator and physical devices), configuration needed for Android.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-- [![Next][next.js]][next-url]
+<!-- - [![Next][next.js]][next-url]
 - [![React][react.js]][react-url]
 - [![Vue][vue.js]][vue-url]
 - [![Angular][angular.io]][angular-url]
 - [![Svelte][svelte.dev]][svelte-url]
 - [![Laravel][laravel.com]][laravel-url]
 - [![Bootstrap][bootstrap.com]][bootstrap-url]
-- [![JQuery][jquery.com]][jquery-url]
+- [![JQuery][jquery.com]][jquery-url] -->
+
+- [![Flutter][flutter.dev]][flutter-url]
+- [![ML-Kit][mlkit]][mlkit-url]
+- [![OpenAI][openai]][openai-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,33 +110,25 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+To run the project you need flutter to be installed on your machine: follow the "Get started" manual on [flutter.dev](https://docs.flutter.dev/get-started/install)
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/AndreFra96/quizsolver.git
    ```
-3. Install NPM packages
+2. Install required packages
    ```sh
-   npm install
+   flutter pub get
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
+3. Get your OpenAI API Key at [openai.com](https://platform.openai.com/)
+4. Update the 'openaiApiKey' in `lib/config.dart` with your OpenAI API Key
+5. Run `flutter run`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,15 +136,13 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+<img src="assets/images/quizsolverExample.gif" alt="Example" width="200" >
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 
-## Roadmap
+<!-- ## Roadmap
 
 - [ ] Feature 1
 - [ ] Feature 2
@@ -178,7 +151,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/AndreFra96/quizsolver/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- CONTRIBUTING -->
 
@@ -209,7 +182,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Andrea Brioschi - brioschiandrea@tiscali.it
 
 Project Link: [https://github.com/AndreFra96/quizsolver](https://github.com/AndreFra96/quizsolver)
 
@@ -240,7 +213,7 @@ Project Link: [https://github.com/AndreFra96/quizsolver](https://github.com/Andr
 [license-url]: https://github.com/AndreFra96/quizsolver/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: assets/images/quizsolverExample.gif
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [next-url]: https://nextjs.org/
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
@@ -257,3 +230,9 @@ Project Link: [https://github.com/AndreFra96/quizsolver](https://github.com/Andr
 [bootstrap-url]: https://getbootstrap.com
 [jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [jquery-url]: https://jquery.com
+[flutter.dev]: https://img.shields.io/badge/Flutter-47d1fc?style=for-the-badge&logo=flutter&logoColor=white
+[flutter-url]: https://flutter.dev
+[mlkit]: https://img.shields.io/badge/MLKIT-4787F4?style=for-the-badge&logo=google&logoColor=white
+[mlkit-url]: https://developers.google.com/ml-kit
+[openai]: https://img.shields.io/badge/OpenAI%20GPT3-74AA9C?style=for-the-badge&logo=openai&logoColor=white
+[openai-url]: https://openai.com/product
