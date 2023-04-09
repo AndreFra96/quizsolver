@@ -2,14 +2,6 @@
 
 <a name="readme-top"></a>
 
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -37,8 +29,8 @@
 
   <p align="center">
     A quiz solver based on Google ML Kit and GPT-3.
-    <br />
-    <a href="https://github.com/AndreFra96/quizsolver"><strong>Explore the docs »</strong></a>
+    <!-- <br />
+    <a href="https://github.com/AndreFra96/quizsolver"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
     <!-- <a href="https://github.com/AndreFra96/quizsolver">View Demo</a>
@@ -91,15 +83,6 @@ Ready for execution on iOS (simulator and physical devices), configuration neede
 
 ### Built With
 
-<!-- - [![Next][next.js]][next-url]
-- [![React][react.js]][react-url]
-- [![Vue][vue.js]][vue-url]
-- [![Angular][angular.io]][angular-url]
-- [![Svelte][svelte.dev]][svelte-url]
-- [![Laravel][laravel.com]][laravel-url]
-- [![Bootstrap][bootstrap.com]][bootstrap-url]
-- [![JQuery][jquery.com]][jquery-url] -->
-
 - [![Flutter][flutter.dev]][flutter-url]
 - [![ML-Kit][mlkit]][mlkit-url]
 - [![OpenAI][openai]][openai-url]
@@ -135,6 +118,8 @@ To run the project you need flutter to be installed on your machine: follow the 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
+
+The usage in extremely simple, just point the camera to the quiz and click the photo button. In a few seconds a popup will show up with the recognized question and the correct answer.
 
 <img src="assets/images/quizsolverExample.gif" alt="Example" width="200" >
 
