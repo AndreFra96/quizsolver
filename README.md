@@ -194,7 +194,7 @@ Project Link: [https://github.com/AndreFra96/quizsolver](https://github.com/Andr
 [stars-url]: https://github.com/AndreFra96/quizsolver/stargazers
 [issues-shield]: https://img.shields.io/github/issues/AndreFra96/quizsolver.svg?style=for-the-badge
 [issues-url]: https://github.com/AndreFra96/quizsolver/issues
-[license-shield]: https://img.shields.io/github/license/AndreFra96/quizsolver.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/AndreFra96/quizsolver?style=for-the-badge
 [license-url]: https://github.com/AndreFra96/quizsolver/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
