@@ -197,7 +197,7 @@ Project Link: [https://github.com/AndreFra96/quizsolver](https://github.com/Andr
 [license-shield]: https://img.shields.io/github/license/AndreFra96/quizsolver?style=for-the-badge
 [license-url]: https://github.com/AndreFra96/quizsolver/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/andrea-francesco-brioschi-258a0518b/
 [product-screenshot]: assets/images/quizsolverExample.gif
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [next-url]: https://nextjs.org/
